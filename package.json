@@ -1,16 +1,20 @@
 {
-  "author": "igeligel <kevinigeligeligel@gmail.com>",
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
+  "author": {
+    "email": "kevinigeligeligel+vuexfeature@gmail.com",
+    "name": "Kevin Peters",
+    "url": "https://www.kevinpeters.net/"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "bugs": {
+    "url": "https://github.com/igeligel/vuex-namespaced-module-structure/issues"
+  },
   "dependencies": {
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
-  "description": "A Vue.js project",
+  "description":
+    "A Vue.js project showcasing the namespaced module structure of Vuex",
   "devDependencies": {
     "autoprefixer": "^8.5.0",
     "babel-core": "^6.26.3",
@@ -61,12 +65,17 @@
     "node": ">= 8.0.0",
     "npm": ">= 5.0.0"
   },
+  "homepage": "https://vuex-namespaced-module-structure.netlify.com/",
+  "keywords": ["vuex", "module", "large", "scale", "vuejs", "vue", "example"],
+  "license": "MIT",
   "name": "vuex-namespaced-module-structure",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igeligel/vuex-namespaced-module-structure"
+  },
   "scripts": {
     "build": "node build/build.js",
     "dev": "node build/dev-server.js",
-    "lint": "eslint --ext .js,.vue src",
     "start": "npm run dev"
   },
   "version": "1.0.0"
